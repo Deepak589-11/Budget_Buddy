@@ -56,7 +56,7 @@ async function sendMessage(message) {
 
 
 (function init() {
-  appendMessage('Hello — I am your finance assistant. Ask me about your expenses, budgets, or basic finance concepts.', 'bot');
+  appendMessage('Hello — I am your finance assistant Plutos. Ask me about your expenses, budgets, or basic finance concepts.', 'bot');
 })();
 
 
