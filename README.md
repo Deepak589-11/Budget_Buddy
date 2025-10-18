@@ -1,7 +1,7 @@
 #This Is Our First Hack Verse Code 
-BudgetBuddy — Your Smart Student Finance Tracker
+Kubera — Your Smart Student Finance Tracker
 
-BudgetBuddy is a fintech-themed web application designed to help students track, analyze, and manage their expenses easily.
+ is a fintech-themed web application designed to help students track, analyze, and manage their expenses easily.
 It combines budget tracking, data visualization, and a personal finance chatbot — all within a clean and interactive interface.
 
 >> Features
