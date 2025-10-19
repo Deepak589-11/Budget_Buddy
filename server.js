@@ -271,7 +271,7 @@ class FinancialFriend {
 
         if (message.includes('add expense') || message.includes('new expense')) {
             return {
-                reply: "I can help you add expenses! Use the '💸 Add Quick Expense' button in chat, or tell me: 'I spent $15 on lunch today' and I'll add it for you!",
+                reply: "I can help you add expenses! Use the ' Add Quick Expense' button in chat, or tell me: 'I spent ₹15 on lunch today' and I'll add it for you!",
                 type: 'expense_help'
             };
         }
@@ -335,8 +335,8 @@ class FinancialFriend {
 
     async handleSavingAdvice(message) {
         const tips = [
-            "Try the 24-hour rule: wait a day before buying anything over $50. You'd be surprised how many 'needs' become 'wants'!",
-            "Here's a simple trick: Save your $5 bills. Every time you get one, put it aside. You'll save hundreds without noticing!",
+            "Try the 24-hour rule: wait a day before buying anything over ₹50. You'd be surprised how many 'needs' become 'wants'!",
+            "Here's a simple trick: Save your ₹5 bills. Every time you get one, put it aside. You'll save hundreds without noticing!",
             "Meal prep Sundays! Cooking in bulk can cut your food costs by 40% and save you time during the week.",
             "Unsubscribe from store emails. Fewer temptations = more savings. You've got this!",
             "Use cash for fun spending. When the cash is gone, the spending stops. Old school but super effective!"
@@ -391,9 +391,9 @@ class FinancialFriend {
 
     async handleGeneralAdvice() {
         const advice = [
-            "Start with a $500 emergency fund - it's your financial safety net!",
+            "Start with a ₹500 emergency fund - it's your financial safety net!",
             "Track every expense for 2 weeks. Knowledge is power when it comes to spending!",
-            "Set one small financial goal this month - like saving $50. Small wins build big habits!",
+            "Set one small financial goal this month - like saving ₹50. Small wins build big habits!",
             "Review your subscriptions. The average person pays for 3 subscriptions they don't use!",
             "Pay yourself first! Set up auto-transfer to savings right when you get paid."
         ];

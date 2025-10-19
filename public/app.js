@@ -269,7 +269,7 @@ function renderTable() {
 }
 
 
-function formatMoney(v){ return '$' + (Number(v)||0).toFixed(2); }
+function formatMoney(v){ return '₹' + (Number(v)||0).toFixed(2); }
 function escapeHtml(s){ return String(s||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c])); }
 function badgeClass(cat){
   if (!cat) return 'other';
